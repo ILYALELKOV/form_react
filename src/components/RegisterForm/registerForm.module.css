@@ -1,0 +1,62 @@
+.container {
+	min-height: 600px;
+	min-width: 400px;
+	padding: 50px;
+	background-color: #e8eef7;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.container__name {
+	color: #040202;
+	font-size: 40px;
+}
+
+.container__form {
+	display: flex;
+	flex-direction: column;
+}
+
+.container__submitButton {
+	height: 60px;
+	border-radius: 0;
+	font-size: 20px;
+	margin-top: 100px;
+	background-color: #fdaf0b;
+}
+
+.container__submitButton:hover {
+	outline: none;
+	border: none;
+	background-color: #fdd90b;
+	transition: background-color ease 0.3s;
+}
+
+.container__submitButton:active {
+	border: none;
+	outline: none;
+	transform: translateY(4px);
+	transition: 0.1s ease;
+}
+
+.container__submitButton:focus {
+	border: 1px solid #1e46e9;
+	background-color: #fdd90b;
+	outline: none;
+}
+
+.container__submitButton:disabled {
+	background-color: #a2a0a0;
+	color: #ebe5e5;
+}
+
+.errorPassword {
+	max-width: 390px;
+	text-align: left;
+	font-size: 16px;
+	color: red;
+	margin-top: 15px;
+}
+
+
+

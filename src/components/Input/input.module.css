@@ -1,0 +1,18 @@
+.container__formItem:first-child {
+	margin-top: 90px;
+}
+
+.container__formItem {
+	height: 30px;
+	font-size: 20px;
+	padding: 10px 20px;
+	margin-top: 40px;
+	background-color: #e8eef7;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #1a3ff2;
+}
+
+.container__formItem:focus {
+	border-bottom: 2px solid #eb8416;
+}
